@@ -1,0 +1,14 @@
+<%= require('./partials/header.ejs')() %>
+
+<h1>Page d'accueil</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ab in sapiente unde ipsam, necessitatibus vero corrupti! Ipsa facilis magni nemo reprehenderit sequi? Unde ab quod sint ullam inventore! Ratione.</p>
+
+<img src="<%= require('./images/dominic-swain-ijPGzZAjV2M-unsplash.jpg') %>" alt="" />
+
+<picture>
+    <source srcset="<%= require('./images/image.webp') %>" type="image/webp" />
+    <source srcset="<%= require('./images/image.jpg') %>" type="image/jpg" />
+    <img src="<%= require('./images/image.jpg') %>" alt="" />
+</picture>
+
+<%= require('./partials/footer.ejs')() %>

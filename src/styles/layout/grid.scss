@@ -1,0 +1,38 @@
+html {
+	font-size: $s-mobile;
+	@media ($b-sm) {
+		font-size: $s-sm;
+	}
+	@media ($b-md) {
+		font-size: $s-md;
+	}
+	@media ($b-lg) {
+		font-size: $s-lg;
+	}
+	@media ($b-xl) {
+		font-size: $s-xl;
+	}
+}
+
+body {
+	font-family: $f-light, sans-serif;
+}
+
+.container {
+	width: 100%;
+	margin: $m-container auto;
+	&--background {
+		background: $c-gray;
+		padding: $m-container 0;
+	}
+	&__element {
+		width: 90%;
+		margin: 0 auto;
+		&__header {
+			width: 100%;
+			&:first-child {
+				margin-bottom: $m-container-header;
+			}
+		}
+	}
+}

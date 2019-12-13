@@ -1,0 +1,27 @@
+// ---------- font
+$f-light: 'IBM Plex Sans Light';
+
+// ---------- colors
+$c-dark: hsl(0, 0%, 0%);
+$c-gray: hsl(0, 0%, 95%);
+
+// ---------- breakpoints
+$b-sm: 'min-width: 640px';
+$b-md: 'min-width: 768px';
+$b-lg: 'min-width: 1024px';
+$b-xl: 'min-width: 1280px';
+
+// ---------- sizing
+$s-mobile: 16px;
+$s-sm: 1.25vw;
+$s-md: 1.25vw;
+$s-lg: 1.25vw;
+$s-xl: 16px;
+
+// ---------- margin
+$m-sm: 0.5rem;
+$m-md: 1rem;
+$m-lg: 2rem;
+$m-xl: 4rem;
+$m-container: 8rem;
+$m-container-header: $m-container / 2;
